@@ -39,7 +39,7 @@ use yii\helpers\Html;
  * Dropdown::end();
  * ```
  *
- * @see http://www.getuikit.com/docs/dropdown.html
+ * @see https://getuikit.com/docs/dropdown
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

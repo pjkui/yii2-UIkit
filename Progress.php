@@ -35,7 +35,7 @@ use yii\helpers\Html;
  * ]);
  *
  * ```
- * @see http://www.getuikit.com/docs/progress.html
+ * @see https://getuikit.com/docs/progress
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

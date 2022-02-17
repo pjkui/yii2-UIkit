@@ -19,14 +19,14 @@ class Widget extends \yii\base\Widget
 	/**
 	 * @var array the options for the underlying JS plugin.
 	 * Please refer to the corresponding plugin Web page for possible options.
-	 * For example, [this page](http://www.getuikit.com/docs/components.html) shows
+	 * For example, [this page](https://getuikit.com/docs/components) shows
 	 * how to use the "Modal" plugin and the supported options (e.g. "remote").
 	 */
 	public $clientOptions = [];
 	/**
 	 * @var array the event handlers for the underlying JS plugin.
 	 * Please refer to the corresponding plugin Web page for possible events.
-	 * For example, [this page](http://www.getuikit.com/docs/components.html) shows
+	 * For example, [this page](https://getuikit.com/docs/components) shows
 	 * how to use the "Modal" plugin and the supported events (e.g. "shown").
 	 */
 	public $clientEvents = [];

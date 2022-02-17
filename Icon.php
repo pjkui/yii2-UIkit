@@ -13,7 +13,7 @@ use yii\base\InvalidConfigException;
  * echo Icon::widget(['name' => 'fast-backward']);
  * ]);
  * ```
- * @see http://www.getuikit.com/docs/icon.html
+ * @see https://getuikit.com/docs/icon
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

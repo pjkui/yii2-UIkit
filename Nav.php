@@ -35,7 +35,7 @@ use yii\helpers\Url;
  *
  * Note: Multilevel dropdowns beyond Level 1 are not supported.
  *
- * @see http://www.getuikit.com/docs/nav.html
+ * @see https://getuikit.com/docs/nav
  *
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0

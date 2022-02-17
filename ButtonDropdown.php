@@ -21,8 +21,8 @@ use yii\helpers\Html;
  *     ],
  * ]);
  * ```
- * @see http://www.getuikit.com/docs/button.html
- * @see http://www.getuikit.com/docs/dropdown.html
+ * @see https://getuikit.com/docs/button
+ * @see https://getuikit.com/docs/dropdown
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

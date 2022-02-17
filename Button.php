@@ -16,7 +16,7 @@ use yii\helpers\Html;
  *     'options' => ['class' => 'uk-button-primary'],
  * ]);
  * ```
- * @see http://www.getuikit.com/docs/button.html
+ * @see https://getuikit.com/docs/button 
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

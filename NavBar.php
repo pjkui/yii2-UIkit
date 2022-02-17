@@ -24,7 +24,7 @@ use yii\helpers\Html;
  * NavBar::end();
  * ```
  *
- * @see http://www.getuikit.com/docs/navbar.html
+ * @see https://getuikit.com/docs/navbar
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */

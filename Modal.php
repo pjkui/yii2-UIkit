@@ -23,7 +23,7 @@ use yii\helpers\Html;
  * Modal::end();
  * ~~~
  *
- * @see http://www.getuikit.com/docs/modal.html
+ * @see https://getuikit.com/docs/modal
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */
@@ -46,7 +46,7 @@ class Modal extends Widget
 	 * - label: string, the label of the button. Defaults to '&times;'.
 	 *
 	 * The rest of the options will be rendered as the HTML attributes of the button tag.
-	 * Please refer to the [Modal plugin help](http://www.getuikit.com/docs/modal.html)
+	 * Please refer to the [Modal plugin help](https://getuikit.com/docs/modal)
 	 * for the supported HTML attributes.
 	 */
 	public $closeButton = [];
@@ -61,7 +61,7 @@ class Modal extends Widget
 	 * - label: string, the label of the button. Defaults to 'Show'.
 	 *
 	 * The rest of the options will be rendered as the HTML attributes of the button tag.
-	 * Please refer to the [Modal plugin help](http://www.getuikit.com/docs/modal.html)
+	 * Please refer to the [Modal plugin help](https://getuikit.com/docs/modal)
 	 * for the supported HTML attributes.
 	 */
 	public $toggleButton;
