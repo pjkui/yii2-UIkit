@@ -4,18 +4,19 @@ namespace pjkui\uikit;
 use yii\web\AssetBundle;
 
 /**
- * Almost flat theme for UIkit
+ * Plugins js code
  *
  * @author Quinn Pan <pjkui@qq.com>
  * @since 3.0
  */
-class UIkitAlmostFlatAsset extends AssetBundle
+class UIkitAllAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/uikit/uikit/dist';
-    public $css = [
-        'css/uikit.almost-flat.css',
+    public $js = [
+        'js/uikit.js',
     ];
     public $depends = [
+        'yii\web\JqueryAsset',
         'pjkui\uikit\UIkitAsset',
     ];
 }

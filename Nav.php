@@ -162,6 +162,10 @@ class Nav extends Widget
 		}
 
 		$label = $this->encodeLabels ? Html::encode($item['label']) : $item['label'];
+		if (isset($item['subtitle'])){
+		   $subtitle = \yii\bootstrap4\Html::tag('div', $item['subtitle'], ['class'=>'uk-navbar-subtitle']);
+		   $label = Html::tag('div', $label.$subtitle);
+        }
 		$options = ArrayHelper::getValue($item, 'options', []);
 		$items = ArrayHelper::getValue($item, 'items');
 		$url = Url::to(ArrayHelper::getValue($item, 'url', false));
