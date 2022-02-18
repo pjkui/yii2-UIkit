@@ -1,6 +1,6 @@
 <?php
 
-namespace pjkui\ui;
+namespace pjkui\uikit;
 
 /**
  * This is just an example.

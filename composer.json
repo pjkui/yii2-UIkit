@@ -12,11 +12,12 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
+        "prismjs/prism": "v1.26.0",
         "uikit/uikit": "v3.11.1"
     },
     "autoload": {
         "psr-4": {
-            "pjkui\\uikit\\": ""
+            "\\pjkui\\uikit\\": ""
         }
     },
     "support": {
