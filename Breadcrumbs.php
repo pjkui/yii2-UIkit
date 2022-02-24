@@ -1,7 +1,7 @@
 <?php
+
 namespace pjkui\uikit;
 
-use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
@@ -93,7 +93,7 @@ class Breadcrumbs extends \yii\widgets\Breadcrumbs
      * @return string the rendering result
      * @throws InvalidConfigException if `$link` does not have "label" element.
      */
-    protected function renderItem($link, $template)
+    public function renderItem($link, $template): string
     {
         if (isset($link['label'])) {
             $label = $this->encodeLabels ? Html::encode($link['label']) : $link['label'];
