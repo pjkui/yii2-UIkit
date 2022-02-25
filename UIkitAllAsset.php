@@ -1,4 +1,5 @@
 <?php
+
 namespace pjkui\uikit;
 
 use yii\web\AssetBundle;
@@ -14,6 +15,7 @@ class UIkitAllAsset extends AssetBundle
     public $sourcePath = '@vendor/uikit/uikit/dist';
     public $js = [
         'js/uikit.js',
+        'js/uikit-icons.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
